@@ -46,7 +46,7 @@ html{
   font-size:62.5%;
 }
 body{
-  font-size:1.6rem;
+  font-size:1.8rem;
   line-height:1.5; /*doesn't need a unit of measurement*/
   color:#4F4F4F;
 }
@@ -182,7 +182,23 @@ footer{
             align-items: center;
         }
         .second{
+            width:40%;
+            margin:0 25%;
+            justify-content: center;
+            padding:5%;
+        }
+        .manyBox{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+            margin:0;
+        }
+        .fullbox{
+            width:45%;
+            padding:0;
+            margin:0;
+        }
+        .eight{
             width:100%;
-            align-items: center;
         }
     }
