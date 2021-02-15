@@ -56,7 +56,7 @@ body{
 
 }
 header{
-    background-color: darkgray;
+    background-color: darkgrey;
     padding-top:5%;
     
 }
@@ -162,11 +162,21 @@ footer{
         justify-content: center;
         margin:0 40%;
         background-color: darkgrey;
+        font-size:1.8rem;
+        text-decoration: none;
+        color:black
     
     }
 
 
     @media(max-width: 800px){
+        .first:hover{
+            background-color: grey;
+            color:white;
+        }
+        header{
+            background-color: none;
+        }
         .stuff{
             display: flex;
             justify-content: center;
@@ -199,6 +209,35 @@ footer{
             margin:0;
         }
         .eight{
+            width:90%;
+        }
+    }
+
+
+    @media(max-width: 500px){
+        .left{
+            width:80%;
+            padding-top: 4%;
+        }
+        .right{
+            width:75%;
+        }
+        .links{
+            width:40%;
+        }
+        .text{
             width:100%;
+        }
+        .eight{
+            width:90%;
+        }
+        .second{
+            width:100%;
+        }
+        footer{
+            width:100%;
+        }
+        .third{
+            margin:0 35%;
         }
     }
